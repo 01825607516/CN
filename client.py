@@ -1,5 +1,5 @@
 import socket
-import threading
+import threading 
 import tkinter as tk
 from tkinter import simpledialog, messagebox, scrolledtext
 
@@ -70,3 +70,4 @@ receive_thread.daemon = True
 receive_thread.start()
 
 root.mainloop()
+
